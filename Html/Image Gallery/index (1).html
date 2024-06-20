@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+  <!-- Heading Name -->
+  <div class="heading">
+    <h1>Current DJI Drones</h1>
+  </div>
+    <!-- Image Gallery section all image in one div -->
+    <div class="gallery">
+    <div class="gallery-item">
+      <img 
+ src="https://i.ytimg.com/vi/T5IgH__lL7I/maxresdefault.jpg" 
+onclick="openModal('https://i.ytimg.com/vi/T5IgH__lL7I/maxresdefault.jpg')" alt="Image 1">
+<div class="heading">
+    <h2>DJI Inspire 3: USD $16,499 </h2>
+  </div>
+    </div>
+    <div class="gallery-item">
+      <img 
+ src="https://i.ytimg.com/vi/RNhmV4yCP6M/maxresdefault.jpg" 
+onclick="openModal('https://i.ytimg.com/vi/RNhmV4yCP6M/maxresdefault.jpg')" alt="Image 1">
+<h2>DJI Avata 2: USD $999 </h2>
+    </div>
+    <div class="gallery-item">
+      <img src="https://i.ytimg.com/vi/r5kukRMmZNI/maxresdefault.jpg" 
+onclick="openModal('https://i.ytimg.com/vi/r5kukRMmZNI/maxresdefault.jpg')" alt="Image 2">
+<h2>DJI Mavic 3 Pro: USD $2,199 </h2>
+    </div>
+    <div class="gallery-item">
+      <img src="https://i.ytimg.com/vi/nbXneZzFh8w/maxresdefault.jpg" 
+onclick="openModal('https://i.ytimg.com/vi/nbXneZzFh8w/maxresdefault.jpg')" 
+alt="Image 3">
+<h2>DJI Mini 4 Pro: USD $759 </h2>
+    </div>
+    <div class="gallery-item">
+      <img 
+src="https://i.ytimg.com/vi/xi85DAbv5oU/maxresdefault.jpg" 
+onclick="openModal('https://i.ytimg.com/vi/xi85DAbv5oU/maxresdefault.jpg')" alt="Image 4">
+<h2>DJI Air 3: $879 USD  </h2>
+    </div>
+    <div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
